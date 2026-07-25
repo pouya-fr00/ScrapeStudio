@@ -11,3 +11,6 @@ minimumReleaseAge: 1440
 
 minimumReleaseAgeExclude:
   - '@scrapestudio/*'
+
+overrides:
+  brace-expansion: 5.0.8
