@@ -19,7 +19,7 @@
     "react": "19.2.7",
     "react-dom": "19.2.7",
     "react-i18next": "17.0.9",
-    "react-router": "8.2.0",
+    "react-router": "8.3.0",
     "zod": "4.4.3"
   },
   "devDependencies": {
@@ -36,6 +36,6 @@
     "tailwindcss": "4.3.2",
     "typescript": "6.0.3",
     "vite": "8.1.4",
-    "wrangler": "4.110.0"
+    "wrangler": "4.114.0"
   }
 }
