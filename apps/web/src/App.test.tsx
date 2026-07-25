@@ -46,7 +46,7 @@ describe('localized application shell', () => {
     expect(screen.getByRole('heading', { name: 'Pouya Fereydouni' })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'View GitHub profile' })).toHaveAttribute(
       'href',
-      'https://github.com/pooya-fr00',
+      'https://github.com/pouya-fr00',
     );
   });
 

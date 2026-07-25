@@ -20,5 +20,5 @@ All notable public changes to ScrapeStudio are documented here. The project foll
 - Automated unit, integration, E2E, accessibility, security, dependency, build, and bundle-budget gates.
 - Manual, protected Cloudflare Pages and Workers production deployment pipeline.
 
-[Unreleased]: https://github.com/pooya-fr00/ScrapeStudio/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/pooya-fr00/ScrapeStudio/releases/tag/v1.0.0
+[Unreleased]: https://github.com/pouya-fr00/ScrapeStudio/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/pouya-fr00/ScrapeStudio/releases/tag/v1.0.0

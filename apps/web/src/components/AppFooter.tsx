@@ -15,7 +15,7 @@ const footerNavigation: ReadonlyArray<{ label: string; route: AppRoute }> = [
   { label: 'footer.about', route: 'about' },
 ];
 
-const OWNER_GITHUB_URL = 'https://github.com/pooya-fr00';
+const OWNER_GITHUB_URL = 'https://github.com/pouya-fr00';
 
 export function AppFooter({ locale }: { locale: SupportedLocale }) {
   const { t } = useTranslation();

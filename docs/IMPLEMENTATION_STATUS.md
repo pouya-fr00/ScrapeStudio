@@ -318,7 +318,7 @@ Last updated: 2026-07-17
 - Reworked the mobile experience as dedicated small-screen layouts rather than compressed desktop sections, including the landing page, extraction workspace, result records, category navigation, actions, page introductions, and footer.
 - Replaced the translucent mobile drawer with an opaque full-viewport navigation surface containing localized context, icon-led navigation, language and theme controls, a focus trap, Escape dismissal, and inert background content.
 - Balanced the Persian and English tools, recipes, history, and documentation pages with localized assurance panels and removed the large direction-dependent empty region.
-- Expanded the footer with product links, local/open-source messaging, creator attribution for Pouya Fereydouni, and the verified `pooya-fr00` GitHub profile. Other personal links remain pending exact owner-provided URLs.
+- Expanded the footer with product links, local/open-source messaging, creator attribution for Pouya Fereydouni, and the verified `pouya-fr00` GitHub profile. Other personal links remain pending exact owner-provided URLs.
 - Fixed direct localized route reveals that could leave Persian content invisible until refresh, and removed the 320 px RTL clipping caused by a document minimum width.
 - `pnpm check:private-files`: passed; no tracked `poya.txt` file.
 - `pnpm format:check`: passed.
@@ -375,7 +375,7 @@ Last updated: 2026-07-17
 - Web production output: main JavaScript is 294.77 kB before gzip and 92.14 kB after gzip; CSS is 87.59 kB before gzip and 16.37 kB after gzip.
 - Bundle budgets passed: largest JavaScript asset 287.87 KiB, all JavaScript 573.23 KiB, and largest CSS asset 85.54 KiB.
 - Browser QA against the finalized production artifact covered Persian mobile at 390×844, English mobile playground, and Persian desktop at 1440×900. Direct routes, eight mobile table records, RTL/LTR, localized metadata, landmarks, footer, and absence of inspected horizontal overflow or console warnings/errors passed.
-- The public repository is available at <https://github.com/pooya-fr00/ScrapeStudio> with CI, Dependabot policy, protected production secrets, release templates, and curated repository metadata.
+- The public repository is available at <https://github.com/pouya-fr00/ScrapeStudio> with CI, Dependabot policy, protected production secrets, release templates, and curated repository metadata.
 - Cloudflare Pages is live at <https://scrapestudio.pages.dev> and the Worker API is live at <https://scrapestudio-api.pooya-fr2005.workers.dev>. The exact-origin production smoke passed for English, Persian, robots, sitemap, security headers, API health, CORS allow/deny behavior, and one approved real fetch.
 - Deployment secrets remain encrypted in the GitHub `production` environment. The Cloudflare token has only Pages Write and Workers Scripts Write permissions; no secret or account identifier is committed or exposed to the browser bundle.
 

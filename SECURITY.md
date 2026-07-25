@@ -2,13 +2,13 @@
 
 ## Supported code
 
-Security fixes target the current free public release on the main development line. ScrapeStudio `v1.0.0` is deployed at [scrapestudio.pages.dev](https://scrapestudio.pages.dev/en); see the [published release](https://github.com/pooya-fr00/ScrapeStudio/releases/tag/v1.0.0), [`docs/RELEASE_EVIDENCE.md`](docs/RELEASE_EVIDENCE.md), and [`docs/IMPLEMENTATION_STATUS.md`](docs/IMPLEMENTATION_STATUS.md) for the recorded release state.
+Security fixes target the current free public release on the main development line. ScrapeStudio `v1.0.0` is deployed at [scrapestudio.pages.dev](https://scrapestudio.pages.dev/en); see the [published release](https://github.com/pouya-fr00/ScrapeStudio/releases/tag/v1.0.0), [`docs/RELEASE_EVIDENCE.md`](docs/RELEASE_EVIDENCE.md), and [`docs/IMPLEMENTATION_STATUS.md`](docs/IMPLEMENTATION_STATUS.md) for the recorded release state.
 
 The documented controls reduce risk at the public URL-fetch boundary, but they are not a claim of complete security. Runtime behavior, upstream services, and platform limits can change.
 
 ## Reporting a vulnerability
 
-Please avoid publishing an exploitable report before the maintainer has had a reasonable opportunity to investigate it. Open a [private GitHub security advisory](https://github.com/pooya-fr00/ScrapeStudio/security/advisories/new). If that route is unavailable, contact the maintainer through the [verified GitHub profile](https://github.com/pooya-fr00) without disclosing exploit details publicly.
+Please avoid publishing an exploitable report before the maintainer has had a reasonable opportunity to investigate it. Open a [private GitHub security advisory](https://github.com/pouya-fr00/ScrapeStudio/security/advisories/new). If that route is unavailable, contact the maintainer through the [verified GitHub profile](https://github.com/pouya-fr00) without disclosing exploit details publicly.
 
 Include:
 

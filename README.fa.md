@@ -2,7 +2,7 @@
 
 [English README](README.md) | فارسی
 
-ScrapeStudio یک ابزار رایگان، متن‌باز، بدون ثبت‌نام و دوزبانه برای استخراج دادهٔ ساخت‌یافته از صفحه‌های عمومی و استاتیک وب است. نسخهٔ عمومی [`v1.0.0`](https://github.com/pooya-fr00/ScrapeStudio/releases/tag/v1.0.0) در [scrapestudio.pages.dev](https://scrapestudio.pages.dev/fa) در دسترس است.
+ScrapeStudio یک ابزار رایگان، متن‌باز، بدون ثبت‌نام و دوزبانه برای استخراج دادهٔ ساخت‌یافته از صفحه‌های عمومی و استاتیک وب است. نسخهٔ عمومی [`v1.0.0`](https://github.com/pouya-fr00/ScrapeStudio/releases/tag/v1.0.0) در [scrapestudio.pages.dev](https://scrapestudio.pages.dev/fa) در دسترس است.
 
 ## امتحان در سه مرحله
 
@@ -53,6 +53,6 @@ HTML دریافت‌شده روی سرور ذخیره نمی‌شود و داخ�
 
 ## پشتیبانی و گزارش امنیتی
 
-برای Bug، Feature Request و سؤال عمومی از مسیرهای [`SUPPORT.md`](SUPPORT.md) استفاده کنید. آسیب‌پذیری امنیتی را در Issue عمومی ننویسید و آن را با [GitHub Security Advisory خصوصی](https://github.com/pooya-fr00/ScrapeStudio/security/advisories/new) گزارش کنید.
+برای Bug، Feature Request و سؤال عمومی از مسیرهای [`SUPPORT.md`](SUPPORT.md) استفاده کنید. آسیب‌پذیری امنیتی را در Issue عمومی ننویسید و آن را با [GitHub Security Advisory خصوصی](https://github.com/pouya-fr00/ScrapeStudio/security/advisories/new) گزارش کنید.
 
 این پروژه با مجوز [MIT](LICENSE) منتشر شده است.
