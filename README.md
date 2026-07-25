@@ -17,7 +17,7 @@ It combines a security-focused fetch gateway with detached browser-side parsing,
 2. Select **Analyze this demo**. ScrapeStudio loads the bundled HTML into the workspace without requesting an external site or consuming public fetch quota.
 3. Review the quick results, open **Custom extractor**, choose **Use demo recipe**, and run it. You can then save the recipe locally or export the result as JSON or CSV.
 
-Designed and built by [Pouya Fereydouni](https://github.com/pouya-fr00) as a production-minded full-stack portfolio project.
+Designed and built by [Pouya Fereydouni](https://github.com/pouya-fr00) as a production-minded full-stack portfolio project · [Personal Website](https://pouyafereydouni.ir)
 
 ## Product preview
 
