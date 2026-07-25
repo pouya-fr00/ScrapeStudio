@@ -1,6 +1,6 @@
 # ScrapeStudio
 
-[![CI](https://github.com/pooya-fr00/ScrapeStudio/actions/workflows/ci.yml/badge.svg)](https://github.com/pooya-fr00/ScrapeStudio/actions/workflows/ci.yml)
+[![CI](https://github.com/pouya-fr00/ScrapeStudio/actions/workflows/ci.yml/badge.svg)](https://github.com/pouya-fr00/ScrapeStudio/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-8b93ff.svg)](LICENSE)
 
 [English](README.md) | [فارسی](README.fa.md)
@@ -17,7 +17,7 @@ It combines a security-focused fetch gateway with detached browser-side parsing,
 2. Select **Analyze this demo**. ScrapeStudio loads the bundled HTML into the workspace without requesting an external site or consuming public fetch quota.
 3. Review the quick results, open **Custom extractor**, choose **Use demo recipe**, and run it. You can then save the recipe locally or export the result as JSON or CSV.
 
-Designed and built by [Pouya Fereydouni](https://github.com/pooya-fr00) as a production-minded full-stack portfolio project.
+Designed and built by [Pouya Fereydouni](https://github.com/pouya-fr00) as a production-minded full-stack portfolio project.
 
 ## Product preview
 
@@ -142,7 +142,7 @@ docs                     Architecture and implementation records
 tests/fixtures           Original deterministic HTML fixtures
 ```
 
-Published product releases are versioned through Git tags and [CHANGELOG.md](CHANGELOG.md); the current public release is [`v1.0.0`](https://github.com/pooya-fr00/ScrapeStudio/releases/tag/v1.0.0). The workspace packages intentionally remain private at `0.0.0` because they are not published independently.
+Published product releases are versioned through Git tags and [CHANGELOG.md](CHANGELOG.md); the current public release is [`v1.0.0`](https://github.com/pouya-fr00/ScrapeStudio/releases/tag/v1.0.0). The workspace packages intentionally remain private at `0.0.0` because they are not published independently.
 
 ## Documentation paths
 
