@@ -1,6 +1,6 @@
 # Hardening baseline
 
-This document records the Phase 10 release baseline for the free public ScrapeStudio release. It complements the detailed security and architecture documents; it does not claim that automated checks replace human review.
+This document records the hardening baseline for the free public ScrapeStudio release. It complements the detailed security and architecture documents; it does not claim that automated checks replace human review.
 
 ## Accessibility
 

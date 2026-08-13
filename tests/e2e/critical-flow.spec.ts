@@ -50,7 +50,7 @@ test('saves, exports, reopens, and clears local workflow data', async ({ page })
 
   await page.getByRole('button', { name: 'Custom extractor' }).click();
   await page.getByRole('button', { name: 'Use demo recipe' }).click();
-  await page.getByLabel('Recipe name').fill('Phase 10 products');
+  await page.getByLabel('Recipe name').fill('Sample products');
   await page.getByRole('button', { name: 'Save recipe' }).click();
   await expect(page.getByText('Recipe saved locally.')).toBeVisible();
   await page.getByRole('button', { name: 'Run custom extraction' }).click();
@@ -61,7 +61,7 @@ test('saves, exports, reopens, and clears local workflow data', async ({ page })
   await expect((await downloadPromise).suggestedFilename()).toMatch(/\.json$/u);
 
   await page.getByRole('link', { name: 'Recipes' }).first().click();
-  await expect(page.getByRole('textbox', { name: 'Recipe name' })).toHaveValue('Phase 10 products');
+  await expect(page.getByRole('textbox', { name: 'Recipe name' })).toHaveValue('Sample products');
   await page.getByRole('link', { name: 'Reopen' }).click();
   await expect(page).toHaveURL(/\/en\/scrape\?recipe=/u);
   await expect(page.getByText(/Recipe loaded/u)).toBeVisible();

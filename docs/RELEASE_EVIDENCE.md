@@ -32,6 +32,6 @@ All four endpoints returned HTTP 200 when rechecked on 2026-07-17. The successfu
 ## Related records
 
 - [Production deployment and rollback runbook](./DEPLOYMENT.md)
-- [Implementation status and verification history](./IMPLEMENTATION_STATUS.md)
+- [Architecture overview](./ARCHITECTURE.md)
 - [Reusable release checklist](./RELEASE_CHECKLIST.md)
 - [Security reporting and supported release](../SECURITY.md)

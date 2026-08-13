@@ -47,7 +47,7 @@ HTML دریافت‌شده روی سرور ذخیره نمی‌شود و داخ�
 - [معماری دریافت امن](docs/SECURE_FETCH.md)
 - [هستهٔ استخراج](docs/EXTRACTION_CORE.md)
 - [استقرار Production](docs/DEPLOYMENT.md)
-- [وضعیت پیاده‌سازی](docs/IMPLEMENTATION_STATUS.md)
+- [معماری](docs/ARCHITECTURE.md)
 - [شواهد Release نسخهٔ v1.0.0](docs/RELEASE_EVIDENCE.md)
 - [مشارکت در پروژه](CONTRIBUTING.md)
 

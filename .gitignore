@@ -41,8 +41,3 @@ poya.txt
 **/poya.txt
 PRIVATE_*
 *.private.txt
-
-# Owner-local Codex bootstrap files
-.agents/
-CODEX_EXECUTION_PROMPT.md
-README_FIRST.md

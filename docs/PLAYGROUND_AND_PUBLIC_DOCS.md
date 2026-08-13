@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Phase 9 makes ScrapeStudio reviewable without an external URL. Every playground page is original, bundled project content with deterministic structure and bilingual presentation.
+ScrapeStudio is reviewable without an external URL. Every playground page is original, bundled project content with deterministic structure and bilingual presentation.
 
 The visible demo page and the HTML analyzed by the workspace share the same typed data source. A reviewer can inspect the page first, then use the **Analyze this demo** action to open `/en/scrape?demo=<kind>` or its Persian equivalent. The workspace constructs a local `FetchedPage` and never calls the fetch API for this path.
 

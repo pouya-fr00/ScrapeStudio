@@ -42,7 +42,7 @@ The repository keeps the verified production record for `v1.0.0` in [RELEASE_EVI
 - [ ] Generate and syntax-check Python and JavaScript starter code.
 - [ ] Verify smart repeated-structure analysis remains bounded, cancelable, and non-blocking.
 
-## Production-only Phase 11 gate
+## Production deployment gate
 
 - [ ] Approve the exact frontend and API origins before deployment.
 - [ ] Revalidate current Cloudflare free-tier limits and deployment behavior against official documentation.
