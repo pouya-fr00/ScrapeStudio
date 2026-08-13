@@ -1,6 +1,6 @@
 # Secure Fetch Boundary
 
-This document records the Phase 2 security boundary for ScrapeStudio's static-page fetch API. It is an implementation note, not a claim of perfect SSRF protection.
+This document describes the security boundary for ScrapeStudio's static-page fetch API. It is an implementation note, not a claim of perfect SSRF protection.
 
 ## Request flow
 
@@ -56,7 +56,7 @@ The runtime configuration can:
 - keep smart detection disabled;
 - keep experimental browser fetching disabled.
 
-Smart detection and browser-rendered fetching are not implemented in Phase 2. Their flags default to disabled so later phases cannot accidentally expose them.
+Smart detection can be disabled operationally. Experimental browser-rendered fetching remains disabled by default and is not part of the public product.
 
 ## Known boundary
 

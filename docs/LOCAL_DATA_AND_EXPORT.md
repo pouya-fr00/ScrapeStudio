@@ -1,6 +1,6 @@
 # Local data and export boundary
 
-Phase 6 keeps every recipe and history entry in the user's browser. No recipe, history entry, fetched HTML document, or extracted result row is sent to a persistence API.
+Recipes and history entries stay in the user's browser. No recipe, history entry, fetched HTML document, or extracted result row is sent to a persistence API.
 
 ## IndexedDB stores
 

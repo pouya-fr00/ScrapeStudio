@@ -19,8 +19,6 @@ function isPrivateFile(file) {
 
   return (
     name === 'poya.txt' ||
-    name === 'codex_execution_prompt.md' ||
-    name === 'readme_first.md' ||
     name === 'wrangler.production.generated.json' ||
     name.startsWith('private_') ||
     name.endsWith('.private.txt') ||

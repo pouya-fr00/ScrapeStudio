@@ -138,7 +138,7 @@ apps/api                 Hono Worker and anonymous Durable Object quotas
 packages/extraction-core Detached parsing, quick/custom extraction, repeated structures
 packages/code-generator  Python and JavaScript starter templates
 packages/shared          Shared API contracts and limits
-docs                     Architecture and implementation records
+docs                     Architecture, security, operations, and feature documentation
 tests/fixtures           Original deterministic HTML fixtures
 ```
 
@@ -159,20 +159,20 @@ Published product releases are versioned through Git tags and [CHANGELOG.md](CHA
 
 - [Local setup](#run-locally)
 - [Repository map](#repository-map)
+- [Architecture](docs/ARCHITECTURE.md)
 - [Extraction core](docs/EXTRACTION_CORE.md)
 - [Code generator](docs/CODE_GENERATOR.md)
 - [Contributing](CONTRIBUTING.md)
 
 ### For technical and security review
 
-- [Architecture](#architecture)
+- [Architecture](docs/ARCHITECTURE.md)
 - [Secure fetch architecture](docs/SECURE_FETCH.md)
 - [Hardening baseline](docs/HARDENING.md)
 - [Production deployment and operations](docs/DEPLOYMENT.md)
-- [Implementation status](docs/IMPLEMENTATION_STATUS.md)
 - [v1.0.0 release evidence](docs/RELEASE_EVIDENCE.md)
 
-The [master specification](SCRAPESTUDIO_MASTER_SPEC.md), [release history](CHANGELOG.md), [local data and export notes](docs/LOCAL_DATA_AND_EXPORT.md), and [smart-detection design](docs/SMART_REPEATED_STRUCTURES.md) provide deeper implementation context.
+[Release history](CHANGELOG.md), [local data and export notes](docs/LOCAL_DATA_AND_EXPORT.md), and [smart-detection design](docs/SMART_REPEATED_STRUCTURES.md) provide deeper implementation context.
 
 ## Production endpoints
 

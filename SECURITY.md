@@ -2,7 +2,7 @@
 
 ## Supported code
 
-Security fixes target the current free public release on the main development line. ScrapeStudio `v1.0.0` is deployed at [scrapestudio.pages.dev](https://scrapestudio.pages.dev/en); see the [published release](https://github.com/pouya-fr00/ScrapeStudio/releases/tag/v1.0.0), [`docs/RELEASE_EVIDENCE.md`](docs/RELEASE_EVIDENCE.md), and [`docs/IMPLEMENTATION_STATUS.md`](docs/IMPLEMENTATION_STATUS.md) for the recorded release state.
+Security fixes target the current free public release on the main development line. ScrapeStudio `v1.0.0` is deployed at [scrapestudio.pages.dev](https://scrapestudio.pages.dev/en); see the [published release](https://github.com/pouya-fr00/ScrapeStudio/releases/tag/v1.0.0) and [`docs/RELEASE_EVIDENCE.md`](docs/RELEASE_EVIDENCE.md) for the recorded release state.
 
 The documented controls reduce risk at the public URL-fetch boundary, but they are not a claim of complete security. Runtime behavior, upstream services, and platform limits can change.
 
