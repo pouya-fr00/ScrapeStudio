@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@scrapestudio/shared": "workspace:*",
-    "hono": "4.12.34",
+    "hono": "4.13.7",
     "ipaddr.js": "2.4.0",
     "zod": "4.4.3"
   },
