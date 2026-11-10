@@ -16,6 +16,9 @@ for (const route of ['/en', '/fa', '/en/docs', '/fa/playground/products'] as con
     const expectNoRuntimeErrors = monitorRuntimeErrors(page);
     await page.goto(route);
     await expect(page.locator('main h1').first()).toBeVisible();
+    if (route === '/en' || route === '/fa') {
+      await expect(page.locator('.hero-copy')).toHaveCSS('opacity', '1');
+    }
     await expectNoWcagViolations(page);
     expectNoRuntimeErrors();
   });
